@@ -23,7 +23,7 @@ const Nav = () => {
             Contact <span className="arrow"><i class="fa-solid fa-angle-down"></i></span>
           </a>
           <div className="dropdown-content">
-            <a href="#">Contact Dropdown</a>
+            <a href="#contactdropdown">Contact Dropdown</a>
           </div>
         </div>
         <a href="#buy">Buy Credits</a>
@@ -32,7 +32,7 @@ const Nav = () => {
             Full Access <span className="arrow"><i class="fa-solid fa-angle-down"></i></span>
           </a>
           <div className="dropdown-content">
-            <a href="#">Full Access Dropdown</a>
+            <a href="#fullaccessdropdown">Full Access Dropdown</a>
           </div>
         </div>
         <a href="#getstarted"> <span className='get-started'>Get Started <i class="fa-solid fa-arrow-right"></i></span></a>
