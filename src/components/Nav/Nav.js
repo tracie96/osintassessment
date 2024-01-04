@@ -9,36 +9,33 @@ const Nav = () => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-console.log({showMenu})
   const handleDropdownClick = () => {
-    // Implement your dropdown logic here
-    console.log('Dropdown clicked');
   };
 
   return (
     <nav className="navbar">
       <div className="navbar-logo"><LogoSvgComponent/></div>
       <div className={`navbar-links ${showMenu ? 'show' : 'naa'}`}>
-        <a href="#">Training</a>       
-        <a href="#">Enterprise</a>
+        <a href="#training">Training</a>       
+        <a href="#enterprise">Enterprise</a>
         <div className="dropdown">
-        <a href="#" onClick={handleDropdownClick} className="dropdown-link">
+        <a href="#contact" onClick={handleDropdownClick} className="dropdown-link">
             Contact <span className="arrow"><i class="fa-solid fa-angle-down"></i></span>
           </a>
           <div className="dropdown-content">
             <a href="#">Contact Dropdown</a>
           </div>
         </div>
-        <a href="#">Buy Credits</a>
+        <a href="#buy">Buy Credits</a>
         <div className="dropdown">
-        <a href="#" onClick={handleDropdownClick} className="dropdown-link">
+        <a href="#fullaccess" onClick={handleDropdownClick} className="dropdown-link">
             Full Access <span className="arrow"><i class="fa-solid fa-angle-down"></i></span>
           </a>
           <div className="dropdown-content">
             <a href="#">Full Access Dropdown</a>
           </div>
         </div>
-        <a href="#"> <span className='get-started'>Get Started <i class="fa-solid fa-arrow-right"></i></span></a>
+        <a href="#getstarted"> <span className='get-started'>Get Started <i class="fa-solid fa-arrow-right"></i></span></a>
 
       </div>
       <span className="get-started-text">Get Started <i class="fa-solid fa-arrow-right"></i></span>

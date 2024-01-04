@@ -12,9 +12,9 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <img src={BackgroundSvgComponent} className='blurred-svg' />
+      <img src={BackgroundSvgComponent} className='blurred-svg' alt='background' />
       <div className="overlay">
-        <img src={SpiralSvgComponent} className='spiral-image' />
+        <img src={SpiralSvgComponent} className='spiral-image' alt='spiral' />
 
         <div className="responsive-two-column-grid">
           <div className='pd-2'>
@@ -35,13 +35,13 @@ const Header = () => {
                   starRatedColor='#F2AE40'
                 />
               </div>
-              <div className="ratings"><img src={GoogleSvgComponent} className='' /></div>
+              <div className="ratings"><img src={GoogleSvgComponent} className='' alt='goole'/></div>
               <div className="ratings"> <span>5 star rating</span></div>
 
             </div>
 
           </div>
-          <div><img src={WorldSVGComponent} className='map-image' />
+          <div><img src={WorldSVGComponent} className='map-image' alt='map' />
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Header = () => {
         </div>
         </div>
       </div>
-      <img src={ArrowSvgComponent} className='arrowplus' />
+      <img src={ArrowSvgComponent} className='arrowplus' alt='arrow' />
     </header>
 
   );
