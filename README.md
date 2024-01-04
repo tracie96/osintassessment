@@ -26,7 +26,9 @@ Description of the second screenshot.
 
 ## Assessment
 
-I deployed my assessment here: [Assessment Link](https://your-assessment-link.com)
+I deployed my assessment here: [Assessment Link](https://707a6e93.osintassessment.pages.dev/)
+
+Time duration for assessment : 2 Days
 
 ## Installation
 
