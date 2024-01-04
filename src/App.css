@@ -1,0 +1,81 @@
+
+
+@font-face {
+  font-family: "GeneralSans";
+  src: local("GeneralSans"),
+   url("./assets/Fonts/GeneralSans-Semibold.ttf") format("truetype");
+  font-weight: 500;
+ }
+ @font-face {
+  font-family: "InterDisplay";
+  src: local("InterDisplay"),
+   url("./assets/Fonts/InterDisplay-Light.otf") format("truetype");
+  font-weight: bold;
+ }
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'GeneralSans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000; /* My Black background color */
+  color: #fff; 
+}
+.column p{
+  font-size: 18px;
+  font-family: 'InterDisplay';
+  font-weight: 200;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'InterDisplay';
+  font-size: 16px;
+  font-weight: bold;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.responsive-two-column-grid p {
+  text-align: left;
+  font-size: 18px;
+  font-family: "InterDisplay";
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

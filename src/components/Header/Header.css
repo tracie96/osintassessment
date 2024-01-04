@@ -1,0 +1,168 @@
+.header {
+  position: relative;
+}
+
+.blurred-svg {
+  width: 100%;
+  margin-top: -10%;
+  filter: blur(1px);
+}
+
+.responsive-two-column-grid {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  margin: 20px;
+}
+.pd-2{
+  padding: 0 4rem !important;
+  width: 100%;
+}
+
+.responsive-two-column-grid>* {
+  padding: 1rem;
+}
+
+.map-image {
+  float: right;
+  margin-top: -12%;
+}
+
+.spiral-image {
+  position: absolute;
+  top: -40%;
+  left: -2%;
+}
+
+@media (min-width:768px) {
+  .responsive-two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.button-container {
+  display: flex;
+  width: 300px;
+}
+
+.subtitle {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 71px;
+  text-align: left;
+  margin-bottom: 20px;
+
+}
+
+
+
+.button {
+  padding: 12px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ratings {
+  padding: 3px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  font-family: 'InterDisplay';
+  cursor: pointer;
+}
+.ratings:nth-child(3){
+  margin-top: 10px;
+}
+
+.started {
+  border: 2px solid #6c65c9;
+  border-radius: 7px;
+  background: #EEEBFF;
+  text-align: center;
+}
+
+.learn {
+  text-align: left;
+  background: none;
+  color: #fff;
+}
+
+.star-ratings {
+  display: flex !important;
+}
+
+.table {
+  width: 90%;
+  margin: -25% auto;
+  left: 6%;
+  position: absolute;
+}
+
+.column-table {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+
+.column-table:first-child {
+  border-right: .10px solid #1f1f1f;
+}
+
+.column-table:nth-child(2) {
+  border-right: .10px solid #1f1f1f;
+}
+
+.border {
+  border-bottom: .10px solid #1f1f1f;
+}
+
+.arrowplus {
+  position: absolute;
+  width: 30.5%;
+  left: 35.3%;
+  top: 81.7%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #6c65c9;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .map-image {
+    display: none
+  }
+  .spiral-image{
+    display: none;
+  }
+  .table{
+    display: none;
+  }
+  .pd-2{
+    width: 80% !important;
+    padding: 2rem !important;
+  }
+  .subtitle{
+    font-size: 26px;
+    line-height: normal;
+  }
+  .overlay{
+    margin: 0px;
+  }
+}
