@@ -19,7 +19,7 @@ const Footer = () => {
       <h2>Receive real-time intelligence</h2>
       <p>Access immediate insights, including profiles, photos, links, and more, for a complete digital picture.</p>
     </div>
-    <div className="column">
+    <div className="column nopd-2">
       <AnalyzeSvgComponent className="icon" />
       <h2>Analyze and export data</h2>
       <p>Examine data closely and export in your preferred format: JSON, CSV, or PDF.</p>

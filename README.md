@@ -24,6 +24,11 @@ Description of the second screenshot.
 
 ![Screenshot 6](./src/assets/readme-images/6.png)
 
+Iphone SE Edition view below 
+
+![Screenshot 7](./src/assets/readme-images/7.png)
+
+
 ## Assessment
 
 I deployed my assessment here: [Assessment Link](https://707a6e93.osintassessment.pages.dev/)
