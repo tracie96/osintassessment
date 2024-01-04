@@ -7,6 +7,12 @@
   font-weight: 500;
  }
  @font-face {
+  font-family: "GeneralSansRegular";
+  src: local("GeneralSans"),
+   url("./assets/Fonts/GeneralSans-Variable.ttf") format("truetype");
+  font-weight: 500;
+ }
+ @font-face {
   font-family: "InterDisplay";
   src: local("InterDisplay"),
    url("./assets/Fonts/InterDisplay-Light.otf") format("truetype");
@@ -29,6 +35,13 @@ body {
   font-size: 18px;
   font-family: 'InterDisplay';
   font-weight: 200;
+
+}
+.column h2{
+  font-size: 18px;
+  font-family: 'GeneralSansRegular';
+  font-weight: 200;
+  font-weight:bolder;
 
 }
 .App-logo {

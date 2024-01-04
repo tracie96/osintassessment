@@ -31,7 +31,7 @@ Iphone SE Edition view below
 
 ## Assessment
 
-I deployed my assessment here: [Assessment Link](https://707a6e93.osintassessment.pages.dev/)
+I deployed my assessment here: [Assessment Link](https://lucent-salamander-a3a242.netlify.app/)
 
 Time duration for assessment : 2 Days
 
